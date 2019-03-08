@@ -1,0 +1,53 @@
+
+.navegacion
+{
+	width: 1000px;
+	margin: 30px auto;
+	background: #8F8F8F;
+}
+.navegacion ul
+{	
+	list-style: none;
+}
+
+.menu > li
+{
+	position: relative;
+	display: inline-block;
+}
+
+.menu > li > a
+{
+	display: block;
+	padding: 15px 20px;
+	color: #353535;
+	text-decoration: none;
+}
+
+.menu li a:hover
+{
+	color: green;
+	transition: all .3s;
+}
+
+.submenu
+{
+	position: absolute;
+	background: #333333;
+	width: 130%;
+	display: none;
+}
+
+.submenu li a
+{
+	display: block;
+	width: 100%;
+	padding:  15px;
+	color:  #000000;
+	text-decoration: none;
+}
+
+.menu li:hover .submenu
+{
+	display: block;
+}

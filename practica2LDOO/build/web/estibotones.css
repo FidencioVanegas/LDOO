@@ -1,0 +1,80 @@
+.botonaceptar
+{
+	width: 150px; height: 30px;
+	border: 1px solid #2e518b;
+	padding: 10px; 
+	background-color: #2e518b; 
+	color: #ffffff;
+	border-radius: 10px;
+	cursor: pointer;
+	transition: background-color ls;
+}
+
+.botonaceptar:hover
+{
+	background-color: green;
+}
+
+.botonaceptar p
+{
+	text-align: center;
+	font-size: 1em;
+}
+.botoncancelar
+{
+	width: 150px; height: 30px;
+	border: 1px solid #2e518b;
+	padding: 10px; 
+	background-color: #2e518b; 
+	color: #ffffff;
+	border-radius: 10px;
+	cursor: pointer;
+	transition: background-color ls;
+}
+
+.botoncancelar:hover
+{
+	background-color: red;
+}
+
+.botoncancelar p
+{
+	text-align: center;
+	font-size: 1em;
+}
+
+.boton
+{
+	width: 250px; height: 30px;
+	border: 1px solid #2e518b;
+	padding: 10px; 
+	background-color: #2e518b; 
+	color: #ffffff;
+	border-radius: 10px;
+	cursor: pointer;
+	transition: background-color ls;
+}
+
+.boton:hover
+{
+	background-color: gray;
+}
+
+.boton p
+{
+	text-align: center;
+	font-size: 1em;
+}
+
+.musica
+{
+	width: 230px; 
+	height: 230px;
+	border: 1px solid #2e518b;
+	padding: 10px; 
+	background-color: white; 
+	color: black;
+	border-radius: 10px;
+	cursor: pointer;
+	transition: background-color ls;
+}

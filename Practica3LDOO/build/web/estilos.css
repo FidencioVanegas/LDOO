@@ -1,0 +1,35 @@
+h1 {
+	color: gray;
+	font-size: 40px;
+	font-weight: bold;
+	text-align: center;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing:border-box;
+	box-sizing: border-box;
+}
+
+body
+{
+	background: black;
+}
+
+.cuadro
+{
+	background: rgba(255,255,255, .3);
+	width: 1000px;
+	margin: 30px auto;
+	background: #8F8F8F;
+}
+
+textarea {
+  width: 50%;
+  height: 50px;
+  border: 2px solid #ccc;
+  background-color: #f8f8f8;
+  resize: none;
+}
